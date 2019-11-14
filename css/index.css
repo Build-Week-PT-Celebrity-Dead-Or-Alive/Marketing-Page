@@ -126,3 +126,47 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  color: #F2EDD8;
+  background: #F2EDD8;
+}
+h1 {
+  font-family: 'Supermercado One', cursive;
+  font-size: 3.2rem;
+  padding-top: 45px;
+}
+h2 {
+  font-family: 'Lobster', cursive;
+}
+h3 {
+  font-family: 'Satisfy', cursive;
+}
+a {
+  text-decoration: none;
+  color: #F2EDD8;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 75%;
+  height: 120px;
+  background: #44B3C2;
+  text-align: center;
+  border: 1px solid #5D4C46;
+  border-radius: 50px;
+}
+button {
+  background: #E45641;
+}
