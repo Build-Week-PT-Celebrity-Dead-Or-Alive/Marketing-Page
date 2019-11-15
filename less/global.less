@@ -22,7 +22,7 @@ html, body {
 h1{
     font-family: 'Supermercado One', cursive; 
     font-size: 4rem;
-    padding-top: 43px;
+
 }
 
 h2{
@@ -37,11 +37,22 @@ h3{
 
 }
 
+h4{
+    font-family: 'Supermercado One', cursive;
+    font-size: 2rem; 
+}
 
+p{
+    font-size: 1.5rem;
+}
 
 a{
     text-decoration: none;
-    color: @text-color;    
+    color: @text-color;
+    
+    &:hover{
+        color: @hover-color; 
+    }
 }
 
 .container {
