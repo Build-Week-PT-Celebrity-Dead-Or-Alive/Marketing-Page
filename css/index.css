@@ -149,6 +149,7 @@ h2 {
 h3 {
   font-family: 'Satisfy', cursive;
   color: #E45641;
+  font-size: 2.5rem;
 }
 a {
   text-decoration: none;
@@ -162,6 +163,7 @@ a {
 header {
   margin: 0 auto;
   margin-top: 100px;
+  margin-bottom: 30px;
   width: 75%;
   height: 125px;
   background: #44B3C2;
@@ -169,19 +171,21 @@ header {
   border: 1px solid #5D4C46;
   border-radius: 50px;
 }
-.btn {
+.text-center {
   text-align: center;
 }
 button {
-  margin: 30px 0px;
   width: 200px;
   height: 42px;
+  margin: 10px 0px;
   background: #E45641;
   border: 1px solid #5D4C46;
   border-radius: 25px;
+  cursor: pointer;
 }
 img {
   width: 200px;
+  margin: 10px 0px;
 }
 .flex {
   display: flex;
@@ -189,4 +193,5 @@ img {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  margin-top: 30px;
 }
