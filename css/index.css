@@ -154,7 +154,7 @@ a {
   color: #F2EDD8;
 }
 a:hover {
-  color: #7B8D8E;
+  color: #5D4C46;
 }
 .container {
   max-width: 800px;
@@ -167,7 +167,7 @@ header {
   margin-top: 100px;
   margin-bottom: 30px;
   width: 75%;
-  height: 125px;
+  height: 110px;
   background: #44B3C2;
   text-align: center;
   border: 1px solid #5D4C46;
@@ -185,11 +185,11 @@ header {
   }
 }
 .textPadding {
-  padding-top: 43px;
+  padding-top: 35px;
 }
 @media (max-width: 500px) {
   .textPadding {
-    padding-top: 48px;
+    padding-top: 40px;
   }
 }
 .text-center {
@@ -200,7 +200,7 @@ section {
   color: #E45641;
 }
 section p {
-  color: #E45641;
+  color: #5D4C46;
   text-align: center;
   font-family: 'Supermercado One', cursive;
   font-size: 2.2rem;
@@ -219,12 +219,13 @@ button {
   background: #E45641;
   border: 1px solid #5D4C46;
   border-radius: 25px;
-  cursor: pointer;
   box-shadow: 5px 10px 8px #888888;
 }
 img {
   width: 200px;
   margin: 10px 0px;
+  border: 1px solid #5D4C46;
+  border-radius: 20px;
   box-shadow: 5px 10px 8px #888888;
 }
 @media (max-width: 650px) {
@@ -254,7 +255,15 @@ footer {
   background: #F1A94E;
   margin-top: 40px;
   text-align: center;
+  border: 1px solid #5D4C46;
+  border-radius: 30px;
   box-shadow: 5px 10px 8px #888888;
+}
+@media (max-width: 800px) {
+  footer {
+    width: 90%;
+    margin: 40px auto;
+  }
 }
 footer h4 {
   font-family: 'Supermercado One', cursive;
