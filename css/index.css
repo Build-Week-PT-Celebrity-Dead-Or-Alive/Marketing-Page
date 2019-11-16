@@ -138,24 +138,16 @@ body {
   background: #F2EDD8;
 }
 h1 {
-  font-family: 'Supermercado One', cursive;
   font-size: 4rem;
 }
 h2 {
-  font-family: 'Lobster', cursive;
   font-size: 1.8rem;
 }
 h3 {
-  font-family: 'Satisfy', cursive;
-  color: #E45641;
   font-size: 2.5rem;
 }
 h4 {
-  font-family: 'Supermercado One', cursive;
   font-size: 2rem;
-}
-p {
-  font-size: 1.5rem;
 }
 a {
   text-decoration: none;
@@ -170,6 +162,7 @@ a:hover {
   margin: 0 auto;
 }
 header {
+  font-family: 'Supermercado One', cursive;
   margin: 0 auto;
   margin-top: 100px;
   margin-bottom: 30px;
@@ -181,13 +174,45 @@ header {
   border-radius: 50px;
   box-shadow: 5px 10px 8px #888888;
 }
+@media (max-width: 800px) {
+  header {
+    width: 90%;
+  }
+}
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 3rem;
+  }
+}
 .textPadding {
   padding-top: 43px;
+}
+@media (max-width: 500px) {
+  .textPadding {
+    padding-top: 48px;
+  }
 }
 .text-center {
   text-align: center;
 }
+section {
+  font-family: 'Satisfy', cursive;
+  color: #E45641;
+}
+section p {
+  color: #E45641;
+  text-align: center;
+  font-family: 'Supermercado One', cursive;
+  font-size: 2.2rem;
+  padding: 10px 0px;
+}
+@media (max-width: 800px) {
+  section p {
+    font-size: 2rem;
+  }
+}
 button {
+  font-family: 'Lobster', cursive;
   width: 200px;
   height: 42px;
   margin: 10px 0px;
@@ -202,6 +227,16 @@ img {
   margin: 10px 0px;
   box-shadow: 5px 10px 8px #888888;
 }
+@media (max-width: 650px) {
+  img {
+    width: 150px;
+  }
+}
+@media (max-width: 500px) {
+  img {
+    width: 125px;
+  }
+}
 .flex {
   display: flex;
   flex-direction: row;
@@ -210,14 +245,22 @@ img {
   text-align: center;
   margin-top: 30px;
 }
+@media (max-width: 800px) {
+  .flex {
+    justify-content: space-around;
+  }
+}
 footer {
   background: #F1A94E;
-  margin: 20px 0px;
+  margin-top: 40px;
   text-align: center;
+  box-shadow: 5px 10px 8px #888888;
 }
 footer h4 {
+  font-family: 'Supermercado One', cursive;
   padding-top: 10px;
 }
 footer p {
   padding: 10px 0px;
+  font-size: 1.5rem;
 }

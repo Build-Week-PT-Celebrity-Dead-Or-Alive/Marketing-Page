@@ -2,7 +2,25 @@
     text-align: center;
 }
 
+section{
+    font-family: 'Satisfy', cursive;
+    color: @lable-text;
+
+    p{
+        color: @lable-text;
+        text-align: center;
+        font-family: 'Supermercado One', cursive;
+        font-size: 2.2rem;
+        padding: 10px 0px;
+
+        @media @tablet{
+            font-size: 2rem;
+        }
+    }
+}
+
 button{
+    font-family: 'Lobster', cursive;
     width: 200px;
     height: 42px;
     margin: 10px 0px;
@@ -16,12 +34,25 @@ img{
     width: 200px;
     margin: 10px 0px;
     box-shadow: 5px 10px 8px #888888;
+
+    @media @small-tablet{
+        width: 150px;    
+    }
+
+    @media @phone{
+       width: 125px;    
+    }
+    
 }
 
 .flex{
     .flexContainer(row, space-between, center);
     text-align: center;
     margin-top: 30px;
+
+    @media @tablet{
+        justify-content: space-around;    
+    }
 }
 
 
