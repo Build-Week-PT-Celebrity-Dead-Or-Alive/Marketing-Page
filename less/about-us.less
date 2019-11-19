@@ -4,6 +4,8 @@
     h2{
         text-align: center;
         color: @brown;
+        font-family: 'Lobster', cursive;
+        font-size: 2.5rem;
     }
 
     p{
@@ -13,11 +15,12 @@
 
     img{
         width: 130px;
+        box-shadow: none;
         
     }
 
     @media @tablet{
-        margin: 10px 10px;
+        margin: 10px 30px;
     }
 
 }
@@ -46,13 +49,13 @@
 }
 
 .card-flex{
-    .flexContainer(row, space-around, flex-start);
+    .flexContainer(row, space-around, center);
     border: 3px dashed @brown;
     margin: 10px 50px;
     padding: 10px 0px;
     color: @white;
     border-radius: 20px;
-
+    text-shadow: 0 0 4px black;
     
 }
 
@@ -70,6 +73,7 @@
     i{
         font-size: 5rem;
         color: @brown;
+        text-shadow: none;
     }
 }
 

@@ -305,6 +305,8 @@ img {
 .about-container h2 {
   text-align: center;
   color: #5D4C46;
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem;
 }
 .about-container p {
   font-size: 2rem;
@@ -312,10 +314,11 @@ img {
 }
 .about-container img {
   width: 130px;
+  box-shadow: none;
 }
 @media (max-width: 800px) {
   .about-container {
-    margin: 10px 10px;
+    margin: 10px 30px;
   }
 }
 .card-container {
@@ -339,12 +342,13 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   border: 3px dashed #5D4C46;
   margin: 10px 50px;
   padding: 10px 0px;
   color: #F2EDD8;
   border-radius: 20px;
+  text-shadow: 0 0 4px black;
 }
 .card-info {
   width: 50%;
@@ -357,6 +361,7 @@ img {
 .card-social i {
   font-size: 5rem;
   color: #5D4C46;
+  text-shadow: none;
 }
 .social-flex {
   display: flex;
