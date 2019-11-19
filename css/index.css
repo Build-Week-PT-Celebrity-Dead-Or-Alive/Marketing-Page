@@ -364,6 +364,9 @@ img {
   justify-content: space-evenly;
   align-items: flex-start;
 }
+.hidden {
+  visibility: hidden;
+}
 footer {
   background: #F1A94E;
   margin-top: 20px;
