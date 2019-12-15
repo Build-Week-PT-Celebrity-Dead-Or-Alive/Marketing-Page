@@ -1,0 +1,32 @@
+header{
+    font-family: 'Supermercado One', cursive;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    width: 75%;
+    height: 110px;
+    background: @title-color;
+    text-align: center;
+    .box(50px);
+     
+
+    @media @tablet{
+        width: 90%;    
+    }
+
+    h1{
+        @media @phone{
+            font-size: 3rem;
+            
+        } 
+    }
+    
+}
+
+.textPadding{
+    padding-top: 35px;
+
+    @media @phone{
+        padding-top: 40px;    
+    }
+}

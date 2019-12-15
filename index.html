@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Celebrity Dead or Alive</title>
+
+        <link href="css/index.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster|Satisfy|Supermercado+One|Wallpoet&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <div class='container'><!--  page container -->
+            
+            <header>
+                <div class="textPadding"> 
+                    <h1>Celebrity Dead or Alive</h1>
+                </div>
+            </header>
+            
+            <section>
+                <p class="section-text">Are they alive? Or are they dead? Use the app and Test your celebrity knowledge. </p>
+                <!-- Button -->
+                <div class='text-center'>
+                    <button class='button1'><h2><a href='https://front-end-eosin-eight.now.sh/'>Use the app</a></h2></button>
+                </div>
+                <!-- Celebrity names and Pictures -->
+                <div class='flex'><!-- flexbox container  -->
+                    
+                    <div>
+                        <h3>Dick Van Dyke</h3>
+                        <div id="mort1" class="mortality"><p class="alive">Alive</p></div>
+                        <!-- picture here -->
+                        <img src="img/DickVanDyke.jpeg" alt="Dick Van Dyke">
+                        <div>
+                            <button type="button" class="button2" onclick="document.getElementById('mort1').style.display = 'block'">
+                                Alive? or Dead?
+                            </button>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3>Cloris Leachman</h3>
+                        <div id="mort2" class="mortality"><p<p class="alive">Alive</p></div>
+                        <!-- picture here -->
+                        <img src="img/ClorisLeachman.jpeg" alt="Cloris Leachman">
+                        <div>
+                            <button type="button" class="button2" onclick="document.getElementById('mort2').style.display = 'block'">
+                                Alive? or Dead?
+                            </button>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3>Jerry Orbach</h3>
+                        <div id="mort3" class="mortality"><p>Dead</p></div>
+                        <!-- picture here -->
+                        <img src="img/JerryOrbach.jpeg" alt="Jerry Orbach">
+                        <div>
+                            <button type="button" class="button2" onclick="document.getElementById('mort3').style.display = 'block'">
+                                Alive? or Dead?
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="spacer">
+                    <p class="section-text">Did you know which celebrities are alive or dead? How good are you?</p> 
+                    
+                    <div class="text-center">
+                        <button class="button1"><h2><a href="https://front-end-eosin-eight.now.sh/">Use the app</a></h2></button>
+                    </div>
+                    
+                    <p class="section-text">And see how you score.</p>   
+                </div>    
+                
+            
+            </section>
+
+            <footer>
+                <h4><a href='about.html'>About Us</a></h4>
+                <p>&copy; Copyright 2019</p>
+            </footer>
+
+        </div>
+
+    </body>
+</html>
